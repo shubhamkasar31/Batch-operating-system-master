@@ -1,0 +1,27 @@
+TYB
+
+
+* Opcode error : Program terminated abnormally. *
+TTC->0 TTL->1 TLL->1 LLC->0 SI->0 PI->1 TI->0
+
+
+* Operand error :  Program terminated abnormally. *
+TTC->0 TTL->1 TLL->1 LLC->0 SI->0 PI->2 TI->0
+
+
+* Time Limit Exceeded : Program terminated abnormally. *
+TTC->3 TTL->1 TLL->1 LLC->0 SI->2 PI->0 TI->2
+
+
+* Line Limit Exceeded : Program terminated abnormally. *
+TTC->3 TTL->0 TLL->0 LLC->1 SI->1 PI->0 TI->0
+
+
+* Invalid Page Fault :  Program terminated abnormally. *
+TTC->3 TTL->1 TLL->1 LLC->1 SI->1 PI->3 TI->0
+
+
+* No data error : Program terminated abnormally. *
+TTC->0 TTL->1 TLL->1 LLC->0 SI->0 PI->0 TI->0
+
+
